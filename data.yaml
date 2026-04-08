@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['KolSaati']
+
+roboflow:
+  workspace: batuhans-workspace-pw8pj
+  project: kol-saatleri
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/batuhans-workspace-pw8pj/kol-saatleri/dataset/1
